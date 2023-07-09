@@ -1,17 +1,18 @@
 #include <stdio.h>
-
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+ 
 int main(void)
-{
-	char Name[] = "Ese";
-	int Age = 20;
-
-	printf("I have a beautiful friend named %s\n", Name);
-	printf("she had skin like caramel\n");
-	printf("her skills made it hard to tell that she was %d\n", Age);
-	return (0);
+	/**
+	 * main - Entry point
+	 *
+	 * Return: Always 0 (success)
+	 */
+{ 
+	int age = 12;
+	long int user_id = 5444444444;
+	double grade = 22.46e6;
+	
+	printf("Ese is %d years old\n", age);
+	printf("her id is %ld\n", user_id);
+	printf("her grade is %f\n", grade);
+	return(0);
 }
