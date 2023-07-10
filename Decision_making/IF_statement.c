@@ -15,7 +15,7 @@ int main()
 
 	/* Body of code only executes if number is less than 0 */
 
-	if (num < 0);{
+	if (num < 0){
 
 	printf("%d is a negative integer.\n", num);
 	}
