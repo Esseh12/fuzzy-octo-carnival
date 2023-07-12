@@ -7,7 +7,7 @@
  */
 int main()
 {
-	int num = 37;
+	int num = 56;
         int guessed_num;
 
 	/* program welcomes user to game and tells user to input a number */
@@ -19,13 +19,13 @@ int main()
          
 	  while (1){
 	/* program prints error if user guesses a lower number */
-	if (guessed_num > 37)
+	if (guessed_num > num)
 	{
 		printf("opps, you are aiming too high..\n");
 		printf("Try a smaller number: \n");
 		scanf("%d", &guessed_num);
 	}
-	else if (guessed_num < 37)
+	else if (guessed_num < num)
 	{
 		printf("opps, thats a bit too low..\n");
 		printf("Try a bigger number: \n");
