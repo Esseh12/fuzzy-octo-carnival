@@ -23,10 +23,11 @@ int main(void)
 
 	if (i == 0)
 	{
-		printf("!!! GAME HAS ENDED !!!\n");
+		printf("GAME HAS ENDED\n");
+		return (0);
 	}
-	else 
-	{
+
+	else {
 		printf("The game has started\n");
 	
 	
@@ -83,7 +84,7 @@ scanf("%d", &ans3);
 
 if (ans3 == 4){
 	printf("You have answered correctly\n");
-	point3 == 5;
+	point3 = 5;
 	 printf("you have scored %d point\n", point3);
 }
 else {
@@ -105,7 +106,7 @@ scanf("%d", &ans4);
 if (ans4 == 1)
 {
 	printf("You have answered correctly\n");
-	point4 == 5;
+	point4 = 5;
 	printf("you have scored %d point\n", point4);
 }
 else
